@@ -1,0 +1,81 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 25, 2026, 10:16:18 AM
+    Author     : Pablo Coj
+*/
+
+/*.form-register{
+    -fx-background-color: #666666;
+}
+.form-register Label{
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+}
+.form-register TextField,
+.form-register PasswordField{
+    -fx-border-color: #6600cc;
+    -fx-border-width: 2px;
+    -fx-border-radius:5px;
+    -fx-background-color:white;
+}*/
+
+.form-register {
+    -fx-background-color: #1c293d;
+    -fx-padding: 20px;
+}
+
+/* =========================
+   TEXTOS / LABELS
+   ========================= */
+
+.form-register .label {
+    -fx-text-fill: #e5e7eb;
+    -fx-font-family: "Cambria Math";
+    -fx-font-size: 14px;
+}
+
+.form-register .text-field,
+.form-register .password-field {
+    -fx-background-color: #1c293d;
+
+    -fx-text-fill: white;
+
+    -fx-border-color: #34445e;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 14px;
+
+    -fx-padding: 8px;
+}
+
+.form-register .text-field:focused,
+.form-register .password-field:focused {
+    -fx-border-color:#cccccc;
+}
+.root{
+    -fx-background-color: #0f172a;
+}
+.root Button:pressed{
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+}
+.root Button:hover{
+    -fx-background-color: linear-gradient(to bottom right, #7dd3fc, #818cf8);
+}
+.root Button{
+    -fx-background-color: linear-gradient(to bottom right, #38bdf8, #6366f1);
+    -fx-font-size: 14px;
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: #0f172a;
+    -fx-font-weight: bold;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+}

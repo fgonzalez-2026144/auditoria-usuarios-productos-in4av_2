@@ -1,0 +1,84 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 17, 2026, 11:52:56 AM
+    Author     : informatica
+*/
+
+.root {
+    -fx-background-color: #0f172a;
+}
+
+.login-card {
+    -fx-background-color: rgba(30, 41, 59, 0.85);
+    -fx-background-radius: 16px;
+    -fx-border-radius: 16px;
+    -fx-border-color: rgba(255, 255, 255, 0.08);
+    -fx-border-width: 1px;
+    -fx-padding: 30px;
+}
+
+.etiqueta {
+    -fx-font-size: 15px;
+    -fx-font-family: "Cambria Math";
+    -fx-text-fill: #94a3b8;
+    -fx-font-weight: 500;
+}
+
+.campo {
+    -fx-background-color: #1e293b;
+    -fx-border-color: #334155;
+    -fx-border-width: 1.5px;
+    -fx-text-fill: #f8fafc;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 8px 12px;
+}
+
+.campo:focused {
+    -fx-border-color: #38bdf8;
+    -fx-background-color: #1e293b;
+    -fx-effect: dropshadow(three-pass-box, rgba(56, 189, 248, 0.2), 8, 0, 0, 0);
+}
+
+.link {
+    -fx-font-size: 13px;
+    -fx-font-family: "Segoe UI";
+    -fx-font-weight: bold;
+    -fx-text-fill: #38bdf8;
+    -fx-cursor: hand;
+}
+
+.link:hover {
+    -fx-text-fill: #7dd3fc;
+}
+
+.link:pressed {
+    -fx-text-fill: #bae6fd;
+}
+
+#btn-login {
+    -fx-background-color: linear-gradient(to bottom right, #38bdf8, #6366f1);
+    -fx-font-size: 14px;
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: #0f172a;
+    -fx-font-weight: bold;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+}
+
+#btn-login:hover {
+    -fx-background-color: linear-gradient(to bottom right, #7dd3fc, #818cf8);
+}
+
+#btn-login:pressed {
+    -fx-background-color:#333333;
+    -fx-text-fill: white;
+}
+#btn-login:focused{
+        -fx-border-color:#cccccc;
+}

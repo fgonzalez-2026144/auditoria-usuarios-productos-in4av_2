@@ -1,0 +1,3 @@
+src/com/fernandogonzalez/system/config/Enviroment.java
+build/*
+/dist/
